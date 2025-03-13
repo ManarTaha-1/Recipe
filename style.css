@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color:  hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Young Serif", serif;
+}
+.container{
+    color:  hsl(24, 5%, 18%);
+    width: 50%;
+    background-color:hsl(0, 0%, 100%) ;
+    border: 25px hsl(0, 0%, 100%) solid;
+    border-radius: 15px;
+    margin: 60px 0;
+}
+.container .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.container p{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    padding-bottom: 20px;
+}
+.container h1 {
+    font-weight: 400;
+    padding: 17px 0;
+    color:  hsl(24, 5%, 18%);
+    font-size: 30px;
+}
+.container .unlisted1 {
+    padding: 15px 35px;
+    background-color: hsl(330, 100%, 98%);
+    font-family:"Outfit", sans-serif;
+    border-radius: 10px;
+}
+.container .unlisted1 h5 {
+    color: hsl(332, 51%, 32%);
+    margin-left: -20px ;
+}
+.container .unlisted1 ul {
+    list-style: none ;
+}
+.container .unlisted1 ul li {
+    color: hsl(30, 10%, 34%);
+    padding-top: 5px;
+    font-size: 18px;
+}
+.container .unlisted1 ul li::before {
+    content:  "• ";
+    padding-right: 8px ;
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+}
+.container .unlisted2 ul {
+    list-style: none;
+}
+.container .unlisted2 {
+    padding-bottom: 20px;
+    font-family:"Outfit", sans-serif;
+    border-bottom: rgb(227, 227, 227) 0.2px solid;
+}
+.container .unlisted2 ul li{
+    color: hsl(30, 10%, 34%);
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.container .unlisted2 h4 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 550;
+}
+.container .unlisted2 ul li::before {
+    content:  "• ";
+    padding-right: 8px ;
+    color: hsl(14, 45%, 36%);
+    font-size: 18px;
+}
+.container .ordered h4 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 550;
+    padding: 12px 0;
+}
+.container .ordered ol li {
+    padding-right: 8px ;
+    color: hsl(30, 10%, 34%);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 2px 10px;
+}
+.container .ordered ol{
+    padding: 0 15px;
+}
+.container .ordered {
+    padding-bottom: 20px;
+    font-family:"Outfit", sans-serif;
+    border-bottom: rgb(227, 227, 227) 0.2px solid;
+}
+.container .table h4 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 550;
+    padding: 12px 0;
+}
+.table tr .a {
+    color: hsl(30, 10%, 34%);
+    
+}
+table tr td {
+    padding: 10px 350px 10px 0;
+    border-bottom: rgb(227, 227, 227) 0.2px solid ;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.table tr .b {
+    color: hsl(14, 45%, 36%);
+}
